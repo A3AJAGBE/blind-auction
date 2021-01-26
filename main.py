@@ -42,7 +42,7 @@ while not bidding_over:
     bids[name] = price
 
     # Prompt for another user
-    another_bid = input("Is there a new bid? Type 'Yes' or 'No'. \n").title()
+    another_bid = input("Bid from another user or update previous bid? Type 'Yes' or 'No'. \n").title()
 
     # Verify the input
     if another_bid == 'Yes':
