@@ -1,0 +1,3 @@
+"""
+A secret auction application
+"""
